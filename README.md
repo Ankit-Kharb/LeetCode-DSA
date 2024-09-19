@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0088-merge-sorted-array](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/0088-merge-sorted-array) |
 | [0179-largest-number](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/0179-largest-number) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/1435-xor-queries-of-a-subarray) |
 ## Bit Manipulation
@@ -36,5 +37,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0088-merge-sorted-array](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/0088-merge-sorted-array) |
 | [0179-largest-number](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/0179-largest-number) |
+## Two Pointers
+|  |
+| ------- |
+| [0088-merge-sorted-array](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/0088-merge-sorted-array) |
 <!---LeetCode Topics End-->
