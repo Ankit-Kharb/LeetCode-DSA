@@ -39,7 +39,6 @@ public:
             if(minCount < maxCount)
             {
                 int diff = maxCount-minCount;
-                cout<<i<<" "<<minCount<<" "<<maxCount<<countN[k-i]<<endl;
                 if(countN[k-i] < diff)
                 {
                     return false;
@@ -52,7 +51,6 @@ public:
             else
             {
                 int diff = minCount-maxCount;
-                cout<<i<<" "<<minCount<<" "<<maxCount<<countN[i]<<endl;
                 if(countN[i] < diff)
                 {
                     return false;
@@ -69,7 +67,6 @@ public:
             int minCount = countN[i];
             int maxCount = countN[k-i];
 
-            cout<<i<<" "<<minCount<<" "<<maxCount<<countN[i]<<endl;
             if(minCount != maxCount)
             {
                 return false;
