@@ -1,57 +1,31 @@
 class Solution {
 public:
-    int minLength(string s) {
-        
-        bool removed = false;
-        for(int i=0;i<s.size();i++)
-        {
-            if(s[i] == 'A')
-            {
-                if(i+1 < s.size())
-                {
-                    if(s[i+1] == 'B')
-                    {
-                        if(i+2<s.size())
-                        {
+    string helper(string s, int index)
+    {
+        if(index == -1)
+            index = 0;
 
-                            s = s.substr(0, i) + s.substr(i+2);
-                        }
-                        else
-                        {
-                            s = s.substr(0, i);
-                        }
-                        removed = true;
-                    }
-                }
-            }
+        if(s.size() == 0 || index == s.size() || index  == s.size()-1)
+            return s;
 
-            if(s[i] == 'C')
-            {
-                if(i+1 < s.size())
-                {
-                    if(s[i+1] == 'D')
-                    {
-                        if(i+2<s.size())
-                        {
-
-                            s = s.substr(0, i) + s.substr(i+2);
-                        }
-                        else
-                        {
-                            s = s.substr(0, i);
-                        }
-                        removed = true;
-                    }
-                }
-            }
-        }
-        if(removed)
+        if(s[index] == 'A' and s[index+1] == 'B')
         {
-            return minLength(s);
+            string temp = s.substr(0, index);
+            if(index + 2 < s.size())
+                temp += s.substr(index+2);
+            return helper(temp, index-1);
         }
-        else
+        else if(s[index] == 'C' and s[index+1] == 'D')
         {
-            return s.size();
+            string temp = s.substr(0, index);
+            if(index + 2 < s.size())
+                temp += s.substr(index+2);
+            return helper(temp, index-1);
         }
+        return helper(s, index+1);
+    }
+    int minLength(string s) 
+    {    
+        return helper(s, 0).size();
     }
 };
