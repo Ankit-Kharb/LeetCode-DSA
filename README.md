@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0179-largest-number](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/0179-largest-number) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/0920-uncommon-words-from-two-sentences) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2755-extra-characters-in-a-string](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/2755-extra-characters-in-a-string) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
@@ -53,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0179-largest-number](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/0179-largest-number) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 ## Sorting
 |  |
 | ------- |
@@ -64,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/0088-merge-sorted-array) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 ## Dynamic Programming
 |  |
@@ -91,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1497-design-a-stack-with-increment-operation](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/1497-design-a-stack-with-increment-operation) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Simulation
 |  |
