@@ -29,7 +29,7 @@ public:
         int arrIndex = 0;
         int depIndex = 0;
 
-        while(time < 100001)
+        while(time <= targetArrival)
         {
            
             vector<int> arrivedPeoples = depArriveMap[time];
