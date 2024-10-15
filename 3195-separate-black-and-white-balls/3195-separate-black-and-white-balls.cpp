@@ -20,7 +20,7 @@ public:
             zeroIndex--;
         }
 
-        ans += (long long )(zeroIndex-oneIndex);
+        ans += (zeroIndex-oneIndex);
 
         oneIndex++;
         zeroIndex--;
