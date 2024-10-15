@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0142-linked-list-cycle-ii](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/0142-linked-list-cycle-ii) |
+| [0146-lru-cache](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/0146-lru-cache) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1256-rank-transform-of-an-array](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/1256-rank-transform-of-an-array) |
@@ -100,10 +101,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0142-linked-list-cycle-ii](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/0142-linked-list-cycle-ii) |
+| [0146-lru-cache](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/0146-lru-cache) |
 | [0859-design-circular-deque](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/0859-design-circular-deque) |
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/0146-lru-cache) |
 | [0859-design-circular-deque](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/0859-design-circular-deque) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/1497-design-a-stack-with-increment-operation) |
 ## Queue
@@ -136,4 +139,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
