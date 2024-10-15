@@ -11,17 +11,14 @@ public:
 
     while(oneIndex < zeroIndex)
     {
-        while(oneIndex < zeroIndex && s[oneIndex]!='1')
+        while(s[oneIndex]!='1' && oneIndex < zeroIndex )
         {
             oneIndex++;
         }
-        while(oneIndex < zeroIndex && s[zeroIndex]!='0')
+        while(s[zeroIndex]!='0' && oneIndex < zeroIndex )
         {
             zeroIndex--;
         }
-
-        if(oneIndex >= zeroIndex)
-            break;
 
         ans += (long long )(zeroIndex-oneIndex);
 
