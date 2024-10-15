@@ -1,6 +1,6 @@
 class LRUCache {
 public:
-    map<int, std::list<pair<int,int>>::iterator>myMap;
+    unordered_map<int, std::list<pair<int,int>>::iterator>myMap;
     list<pair<int,int>> myList;
     int cap;
     LRUCache(int capacity) {
@@ -14,7 +14,7 @@ public:
         if(myMap.find(key) != myMap.end())
         {
             std::list<pair<int,int>>::iterator listItr = myMap[key];
-            cout<<"Ankit "<<key<<" "<<value<<" "<<&listItr<<endl;
+            //cout<<"Ankit "<<key<<" "<<value<<" "<<&listItr<<endl;
             
             int key = (*listItr).first;
             int val = (*listItr).second;
