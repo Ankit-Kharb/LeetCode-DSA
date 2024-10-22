@@ -35,7 +35,7 @@ public:
     {
        // cout<<l<<" "<<r<<" "<<k<<endl;
         int partition = partitionArr(num, l, r);
-        cout<<l<<" "<<r<<" "<<k<<" "<<partition<<endl;
+        //cout<<l<<" "<<r<<" "<<k<<" "<<partition<<endl;
         if(partition == k)
             return num[k];
         if(partition>k)
