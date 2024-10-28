@@ -2,7 +2,7 @@ class Solution {
 public:
     int longestSquareStreak(vector<int>& nums) {
         
-        unordered_map<int,int> myMap;
+        map<int,int> myMap;
         for(int i=0;i<nums.size();i++)
         {
             myMap[nums[i]] = 1;
