@@ -27,16 +27,16 @@ public:
         reverse(nums.begin(), nums.end());
         vector<int>postLIS = LIS(nums);
         reverse(postLIS.begin(), postLIS.end());
-        reverse(nums.begin(), nums.end());
+       // reverse(nums.begin(), nums.end());
 
         int lisSize = 0;
         for(int i=0;i<n;i++)
         {
             if(preLIS[i]<=1 or postLIS[i]<=1)
             continue;
-            
+
             lisSize = max(lisSize, preLIS[i]+postLIS[i]-1);
-            cout<<nums[i]<<" "<<preLIS[i]<<" "<<postLIS[i]<<endl;
+            //cout<<nums[i]<<" "<<preLIS[i]<<" "<<postLIS[i]<<endl;
         }
         return n - lisSize;
     }
