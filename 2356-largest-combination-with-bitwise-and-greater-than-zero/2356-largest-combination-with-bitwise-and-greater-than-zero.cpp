@@ -1,6 +1,6 @@
 class Solution {
 public:
-    void breakInBinary(int &x, unordered_map<int,int> &my_map)
+    void breakInBinary(int &x, vector<int> &my_map)
     {
         int index = 0;
         while(x)
@@ -12,7 +12,7 @@ public:
     }
     int largestCombination(vector<int>& candidates) {
         
-        unordered_map<int,int> my_map;
+        vector<int> my_map(31, 0);
         for(auto candid : candidates)
         {
             breakInBinary(candid, my_map);
