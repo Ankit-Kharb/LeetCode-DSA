@@ -12,14 +12,14 @@ public:
     }
     int largestCombination(vector<int>& candidates) {
         
-        vector<int> my_map(31, 0);
+        vector<int> my_map(25, 0);
         for(auto candid : candidates)
         {
             breakInBinary(candid, my_map);
         }
         int ans = 0;
 
-        for(int i=0;i<31;i++)
+        for(int i=0;i<25;i++)
         {
             ans = max(ans, my_map[i]);
         }
