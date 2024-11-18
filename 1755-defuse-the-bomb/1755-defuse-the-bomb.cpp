@@ -56,7 +56,7 @@ public:
 
                 start--;
                 start = (start+n)%n;
-                cout<<"Test "<<start<<" "<<i<<" "<<cSum<<endl;
+                //cout<<"Test "<<start<<" "<<i<<" "<<cSum<<endl;
             }
         }   
 
