@@ -14,7 +14,7 @@ public:
             long long num = nums[end];
             currSum += num;
 
-            if(my_map.find(num) != my_map.end() and my_map[num]!=-1)
+            if(my_map.find(num) != my_map.end() && my_map[num]!=-1)
             {
                 int pos = my_map[num];
                 while(start <= pos)
@@ -30,7 +30,7 @@ public:
 
             if(end-start == k-1)
             {
-                ans = max(ans, currSum);
+                ans = ans<currSum ? currSum : ans;
                 long long startNum = nums[start++];
                 currSum -= startNum;
             }
