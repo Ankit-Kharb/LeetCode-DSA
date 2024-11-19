@@ -14,13 +14,13 @@ public:
             long long num = nums[end];
             currSum += num;
 
-            if(my_map.find(num) != my_map.end())
+            if(my_map.find(num) != my_map.end() and my_map[num]!=-1)
             {
                 int pos = my_map[num];
                 while(start <= pos)
                 {
                     currSum -= nums[start];
-                    my_map.erase(nums[start]);
+                    my_map[nums[start]] = -1;
                     start++;
                 }
             }
