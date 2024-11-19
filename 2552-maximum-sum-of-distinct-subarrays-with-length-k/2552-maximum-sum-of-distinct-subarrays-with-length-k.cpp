@@ -2,7 +2,9 @@ class Solution {
 public:
     long long maximumSubarraySum(vector<int>& nums, int k) {
         
-        unordered_map<int,int> my_map;
+        int my_map[100001];
+        memset(my_map, -1, sizeof(my_map));
+
         int start = 0;
         int end = 0;
 
@@ -14,7 +16,7 @@ public:
             long long num = nums[end];
             currSum += num;
 
-            if(my_map.find(num) != my_map.end() && my_map[num]!=-1)
+            if(my_map[num]!=-1)
             {
                 int pos = my_map[num];
                 while(start <= pos)
