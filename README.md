@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/0088-merge-sorted-array) |
 | [0179-largest-number](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/0179-largest-number) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0493-reverse-pairs](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/0493-reverse-pairs) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0859-design-circular-deque](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/0859-design-circular-deque) |
 | [1002-maximum-width-ramp](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/1002-maximum-width-ramp) |
@@ -186,10 +187,31 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0493-reverse-pairs](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/0493-reverse-pairs) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/2586-longest-square-streak-in-an-array) |
 ## Matrix
 |  |
 | ------- |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/2343-count-unguarded-cells-in-the-grid) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/0493-reverse-pairs) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/0493-reverse-pairs) |
+## Segment Tree
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/0493-reverse-pairs) |
+## Merge Sort
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/0493-reverse-pairs) |
+## Ordered Set
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/Ankit-Kharb/LeetCode-DSA/tree/master/0493-reverse-pairs) |
 <!---LeetCode Topics End-->
