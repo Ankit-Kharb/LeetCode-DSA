@@ -25,6 +25,7 @@ public:
             int guard_x = guard[0];
             int guard_y = guard[1];
 
+            visit[guard_x][guard_y] = 1;
             // horizontal traversal
             for(int i=guard_x+1;i<m;i++)
             {
@@ -98,17 +99,6 @@ public:
 
            
         }
-
-         for(int i=0;i<m;i++)
-            {
-                for(int j=0;j<n;j++)
-                {
-                    //cout<<visit[i][j]<<" ";
-                }
-                cout<<endl;
-            }
-
         return ans;
-
     }
 };
